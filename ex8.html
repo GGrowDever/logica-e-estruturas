@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Ex8</title>
+	</head>
+	<body>
+		<script>
+			var primeiroValor = prompt('Coloque o primeiro Valor:');
+			var segundoValor = prompt('Coloque o segundo Valor:');
+
+			primeiroValor = parseFloat(primeiroValor);
+			segundoValor = parseFloat(segundoValor);
+
+			if (primeiroValor === segundoValor) {
+				document.write('Números iguais');
+			} else if (primeiroValor > segundoValor) {
+				document.write('Primeiro é maior');
+			} else {
+				document.write('Segundo é maior');
+			}
+		</script>
+	</body>
+</html>

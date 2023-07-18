@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Ex7</title>
+	</head>
+	<body>
+		<script>
+			let totalEleitores = 200
+			let votosBrancos = 19
+			let votosNulos = 11
+			let votosValidos = totalEleitores - votosBrancos - votosNulos
+
+			let percentualBrancos = (votosBrancos / totalEleitores) * 100;
+			let percentualNulos = (votosNulos / totalEleitores) * 100;
+			let percentualValidos = (votosValidos / totalEleitores) * 100;
+
+			document.write(`Total de eleitores ${totalEleitores} <br>
+               Percentual de votos brancos: ${percentualBrancos}% <br>
+               Percentual de votos nulos: ${percentualNulos}% <br>
+               Percentual de votos válidos: ${percentualValidos}%`)
+		</script>
+	</body>
+</html>

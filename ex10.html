@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Ex10</title>
+	</head>
+	<body>
+		<script>
+			const name = prompt('Digite seu Nome:');
+
+			let idade = prompt('Digite sua Idade:');
+
+			idade = parseInt(idade);
+
+			let anoAtual = new Date().getFullYear();
+			let anoNasc = anoAtual - idade;
+
+			document.write(
+				'Nome: ' + name +', Idade: ' + idade + ' anos, nasceu em ' + anoNasc);
+		</script>
+	</body>
+</html>
